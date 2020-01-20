@@ -32,6 +32,8 @@ jobs:
 
       - name: Add
         run: |
+          git config --global user.email "dhruvjainpenny@gmail.com"
+          git config --global user.name "Dhruv Jain"
           git add README.md
           git commit -m ":package: Update Downloads"
 
