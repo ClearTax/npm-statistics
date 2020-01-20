@@ -21,5 +21,5 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 
 1. `Fork` this repository.
 2. Add your npm username/author in `package.json` as `npm-author` key.
-3. Run `npm start` to generate the Downloads.
+3. Run `npm i` and then `npm start` to generate the Downloads.
 4. The repo comes with a daily CROD job that updates the Downloads.
