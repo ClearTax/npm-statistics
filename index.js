@@ -1,9 +1,12 @@
 const path = require("path");
+const fs = require("fs");
 const _ = require("lodash");
 const fetch = require("node-fetch");
 const table = require("markdown-table");
 const markdownMagic = require("markdown-magic");
 const { "npm-author": author } = require("./package.json");
+
+const badgeStats = require("./stats.json");
 
 if (!author) {
   throw new Error("Please add `npm-author` to your package.json");
@@ -32,6 +35,10 @@ if (!author) {
   const sum = _.sumBy(sortedStats, function(o) {
     return o[1];
   });
+
+  badgeStats.message = `${sum} Downloads`;
+
+  await fs.writeFileSync("./stats.json", JSON.stringify(badgeStats, null, 2));
 
   generate(sortedStats, sum);
 })();
