@@ -1,0 +1,33 @@
+name: cron
+
+on:
+  schedule:
+    - cron: "* * * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+
+      - name: Install
+        run: |
+          npm install
+
+      - name: Collect
+        run: |
+          npm start
+
+      - name: Add
+        run: |
+          git add README.md
+          git commit -m ":package: Update Downloads"
+
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
