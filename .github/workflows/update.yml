@@ -2,7 +2,7 @@ name: cron
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "1 0 * * *"
 
 jobs:
   update:
