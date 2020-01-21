@@ -8,7 +8,6 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
-
 | Name                      | Downloads |
 | ------------------------- | --------- |
 | `post-merge-install`      | 3305      |
@@ -18,7 +17,6 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 | `@cleartax/eslint-config` | 277       |
 | `props-validator`         | 48        |
 | **Sum**                   | **8442**  |
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
