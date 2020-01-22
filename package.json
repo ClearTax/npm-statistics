@@ -23,7 +23,7 @@
     "markdown-table": "^1.1.3",
     "node-fetch": "^2.6.0"
   },
-  "npm-author": "cleartax",
+  "npm-stats": "cleartax",
   "dependencies": {
     "npmtotal": "^1.1.0"
   }

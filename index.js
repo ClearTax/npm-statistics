@@ -5,16 +5,16 @@ const fetch = require("node-fetch");
 const table = require("markdown-table");
 const markdownMagic = require("markdown-magic");
 const npmtotal = require("npmtotal");
-const { "npm-author": author } = require("./package.json");
+const { "npm-stats": key } = require("./package.json");
 
 const badgeStats = require("./stats.json");
 
-if (!author) {
-  throw new Error("Please add `npm-author` to your package.json");
+if (!key) {
+  throw new Error("Please add `npm-stats` to your package.json");
 }
 
 (async () => {
-  const stats = await npmtotal("cleartax");
+  const stats = await npmtotal(key);
 
   const sortedStats = _.reverse(
     _.sortBy(stats.stats, [
