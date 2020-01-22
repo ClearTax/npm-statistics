@@ -4,6 +4,7 @@ const _ = require("lodash");
 const fetch = require("node-fetch");
 const table = require("markdown-table");
 const markdownMagic = require("markdown-magic");
+const npmtotal = require("npmtotal");
 const { "npm-author": author } = require("./package.json");
 
 const badgeStats = require("./stats.json");
@@ -13,34 +14,21 @@ if (!author) {
 }
 
 (async () => {
-  const date = new Date().toJSON().slice(0, 10),
-    url = `https://npm-stat.com/api/download-counts?author=${author}&from=2019-06-03&until=${date}`;
-
-  const res = await fetch(url);
-  const data = await res.json();
-
-  let stats = [];
-
-  for (let [package, downloads] of Object.entries(data)) {
-    stats.push([`\`${package}\``, _.sum(Object.values(downloads))]);
-  }
+  const stats = await npmtotal("cleartax");
 
   const sortedStats = _.reverse(
-    _.sortBy(stats, [
+    _.sortBy(stats.stats, [
       function(o) {
         return o[1];
       }
     ])
   );
-  const sum = _.sumBy(sortedStats, function(o) {
-    return o[1];
-  });
 
-  badgeStats.message = `${sum} Downloads`;
+  badgeStats.message = `${stats.sum} Downloads`;
 
   await fs.writeFileSync("./stats.json", JSON.stringify(badgeStats, null, 2));
 
-  generate(sortedStats, sum);
+  generate(sortedStats, stats.sum);
 })();
 
 function generate(data, sum) {
