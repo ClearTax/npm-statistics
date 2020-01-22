@@ -56,5 +56,7 @@ function generate(data, sum) {
     }
   };
 
-  markdownMagic(path.join(__dirname, "README.md"), config);
+  markdownMagic(path.join(__dirname, "README.md"), config, d => {
+    console.log(`Updated total downloads ${sum}`);
+  });
 }
