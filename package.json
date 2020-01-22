@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ClearTax/npm-statistics.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ClearTax OpenSource <opensource@cleartax.in>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ClearTax/npm-statistics/issues"
