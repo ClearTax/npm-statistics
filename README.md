@@ -10,14 +10,14 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
 | Name                    | Downloads |
 | ----------------------- | --------- |
-| post-merge-install      | 3393      |
-| @cleartax/zoids         | 2045      |
-| pivotal-flow            | 1701      |
-| engines-ok              | 1554      |
-| install-types           | 1126      |
-| @cleartax/eslint-config | 313       |
-| props-validator         | 123       |
-| **Sum**                 | **10255** |
+| post-merge-install      | 3402      |
+| @cleartax/zoids         | 2056      |
+| pivotal-flow            | 1711      |
+| engines-ok              | 1623      |
+| install-types           | 1138      |
+| @cleartax/eslint-config | 316       |
+| props-validator         | 130       |
+| **Sum**                 | **10376** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
@@ -48,3 +48,7 @@ or for packages
 5. For updating the badge replace `ClearTax` in badge endpoint to your github username/orgname.
    https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2F`username`%2Fnpm-statistics%2Fmaster%2Fstats.json
 6. Enable `GitHub Actions` for your forked repo, as it is enabled by default for forks.
+
+## Ref
+
+- [npmtotal](https://github.com/maddhruv/npmtotal) - Find you npm download statistics
