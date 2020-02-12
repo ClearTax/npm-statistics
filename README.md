@@ -10,13 +10,13 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
 | Name                    | Downloads |
 | ----------------------- | --------- |
-| post-merge-install      | 3628      |
-| @cleartax/zoids         | 2665      |
-| engines-ok              | 2047      |
-| pivotal-flow            | 1931      |
-| @cleartax/eslint-config | 453       |
-| props-validator         | 273       |
-| **Sum**                 | **10997** |
+| post-merge-install      | 3660      |
+| @cleartax/zoids         | 2689      |
+| engines-ok              | 2079      |
+| pivotal-flow            | 1937      |
+| @cleartax/eslint-config | 472       |
+| props-validator         | 287       |
+| **Sum**                 | **11124** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
