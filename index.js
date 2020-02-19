@@ -14,15 +14,11 @@ if (!key) {
 }
 
 (async () => {
-  const stats = await npmtotal(key);
+  const stats = await npmtotal(key, {
+    startDate: '2019-06-03'
+  });
 
-  const sortedStats = _.reverse(
-    _.sortBy(stats.stats, [
-      function(o) {
-        return o[1];
-      }
-    ])
-  );
+  const sortedStats = stats.stats
 
   badgeStats.message = `${stats.sum} Downloads`;
 
@@ -45,6 +41,6 @@ function generate(data, sum) {
   };
 
   markdownMagic(path.join(__dirname, "README.md"), config, d => {
-    console.log(`Updated total downloads ${sum}`);
+    console.log(`Updated total downloads - ${sum}`);
   });
 }
