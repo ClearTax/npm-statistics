@@ -25,6 +25,6 @@
   },
   "npm-stats": "cleartax",
   "dependencies": {
-    "npmtotal": "^1.1.0"
+    "npmtotal": "^1.4.0"
   }
 }
