@@ -12,6 +12,9 @@
   },
   "keywords": [],
   "author": "ClearTax OpenSource <opensource@cleartax.in>",
+  "contributors": [
+    "Dhruv Jain <dhruvjainpenny@gmail.com>"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ClearTax/npm-statistics/issues"
