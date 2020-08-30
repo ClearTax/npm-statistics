@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "NPM",
-  "message": "61433 Downloads",
+  "message": "jOOQ; SQL [insert into \"public\".\"download_count\" (\"package_name\", \"date\", \"count\") values (?, cast(? as date), ?)]; ERROR: duplicate key value violates unique constraint \"69_69_download_count_pkey\"\n  Detail: Key (package_name, date)=(post-merge-install, 2020-08-28) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint \"69_69_download_count_pkey\"\n  Detail: Key (package_name, date)=(post-merge-install, 2020-08-28) already exists.Internal Server Error/npm-stat/api/download-counts02020-08-30T00:22:51.922+0000 Downloads",
   "color": "orange",
   "style": "for-the-badge",
   "namedLogo": "npm"
