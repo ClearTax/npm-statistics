@@ -10,15 +10,15 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
 | Name                                                                                                                                 | Downloads |
 | ------------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| [@cleartax/zoids](https://www.npmjs.com/package/@cleartax/zoids)                                                                     | 23258     |
-| [post-merge-install](https://www.npmjs.com/package/post-merge-install)                                                               | 16410     |
+| [@cleartax/zoids](https://www.npmjs.com/package/@cleartax/zoids)                                                                     | 23265     |
+| [post-merge-install](https://www.npmjs.com/package/post-merge-install)                                                               | 16420     |
 | [engines-ok](https://www.npmjs.com/package/engines-ok)                                                                               | 11376     |
-| [install-types](https://www.npmjs.com/package/install-types)                                                                         | 10864     |
+| [install-types](https://www.npmjs.com/package/install-types)                                                                         | 10869     |
 | [@cleartax/apollo-server-plugin-introspection-auth](https://www.npmjs.com/package/@cleartax/apollo-server-plugin-introspection-auth) | 8415      |
-| [@cleartax/eslint-config](https://www.npmjs.com/package/@cleartax/eslint-config)                                                     | 7320      |
+| [@cleartax/eslint-config](https://www.npmjs.com/package/@cleartax/eslint-config)                                                     | 7321      |
 | [props-validator](https://www.npmjs.com/package/props-validator)                                                                     | 4146      |
 | [pivotal-flow](https://www.npmjs.com/package/pivotal-flow)                                                                           | 3150      |
-| **Sum**                                                                                                                              | **84939** |
+| **Sum**                                                                                                                              | **84962** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
