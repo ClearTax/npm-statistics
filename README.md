@@ -10,15 +10,15 @@ NPM Download Statistics for ClearTax Open Source Projects. Updated Daily.
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
 | Name                                                                                                                                 | Downloads  |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| [post-merge-install](https://www.npmjs.com/package/post-merge-install)                                                               | 73178      |
-| [@cleartax/apollo-server-plugin-introspection-auth](https://www.npmjs.com/package/@cleartax/apollo-server-plugin-introspection-auth) | 52409      |
-| [@cleartax/zoids](https://www.npmjs.com/package/@cleartax/zoids)                                                                     | 41502      |
-| [install-types](https://www.npmjs.com/package/install-types)                                                                         | 18452      |
-| [engines-ok](https://www.npmjs.com/package/engines-ok)                                                                               | 17670      |
-| [@cleartax/eslint-config](https://www.npmjs.com/package/@cleartax/eslint-config)                                                     | 14397      |
-| [props-validator](https://www.npmjs.com/package/props-validator)                                                                     | 5068       |
+| [post-merge-install](https://www.npmjs.com/package/post-merge-install)                                                               | 73682      |
+| [@cleartax/apollo-server-plugin-introspection-auth](https://www.npmjs.com/package/@cleartax/apollo-server-plugin-introspection-auth) | 53024      |
+| [@cleartax/zoids](https://www.npmjs.com/package/@cleartax/zoids)                                                                     | 41568      |
+| [install-types](https://www.npmjs.com/package/install-types)                                                                         | 18498      |
+| [engines-ok](https://www.npmjs.com/package/engines-ok)                                                                               | 17714      |
+| [@cleartax/eslint-config](https://www.npmjs.com/package/@cleartax/eslint-config)                                                     | 14427      |
+| [props-validator](https://www.npmjs.com/package/props-validator)                                                                     | 5081       |
 | [pivotal-flow](https://www.npmjs.com/package/pivotal-flow)                                                                           | 4869       |
-| **Sum**                                                                                                                              | **227545** |
+| **Sum**                                                                                                                              | **228863** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
